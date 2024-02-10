@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Stick+No+Bills:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  height: 875px;
+  background-color: rgba(255, 5, 8, 0.05);
+  /* background-color: black; */
+}
+.movie-cover{
+
+  height: 100%px;
+  width: 100%;
+}
+.movie-cover img{
+
+  filter: brightness(0.2) saturate(2.2) sepia(0.1);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+header {
+ 
+  margin-top: 40px;
+  width: auto;
+  display: flex;
+  gap: 800px;
+  position: absolute;
+  z-index: 1;
+}
+nav{
+
+}
+nav ul {
+  margin-right: 260px;
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  font-weight: 500;
+  color: #E2E2E2;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+color: #f23b26;
+
+}
+.favourite-moives{
+  z-index: 1;
+    width: 80%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.favourite-moives p{
+  font-family: 'poppins';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.movie{
+  
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 160px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    filter: blur(4);
+    border-radius: 14px;
+    background-color: #E2E2E2;
+
+}
+.movie img{
+   
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 14px 0px 0px 14px ;
+
+}
+.items{
+    margin-left: 10px;
+    margin-top:30px;
+}
+.items p:first-child{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+}
+.items p:nth-child(2){
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+.items p:nth-child(3){
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.icons{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.icons span{
+    
+    margin-top: 12px;
+    font-family: roboto;
+    font-weight: 400;
+   font-size: 12px;
+   color:  rgba(0, 0, 0, 0.5);
+}
+
+.circle {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  .circleh{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff0508;
+
+  }
+  .fa-solid,.fa-xmark{
+    color:  rgba(0, 0, 0, 0.5);
+  
+  }
